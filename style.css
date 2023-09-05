@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(./img/o-projeto-adam-divulgacao-netflix-1\ 1.png);
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 50px;
+    background-color: rgb(231, 3, 15);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+}
+
+a{
+    color: #ffffff;
+    width: 100px;
+    
+}
