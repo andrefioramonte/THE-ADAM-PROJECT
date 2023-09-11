@@ -15,7 +15,6 @@ body{
 
 header{
     height: 50px;
-    background-color: rgb(231, 3, 15);
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -24,8 +23,43 @@ header{
 
 }
 
-a{
+.a1{
     color: #ffffff;
-    width: 100px;
+    width: 50px;
+    text-decoration: none;
     
+}
+
+.a2{
+    color: #ffffff;
+    width: 95px;
+    text-decoration: none;
+}
+
+.a3{
+    color: #ffffff;
+    width: 50px;
+    text-decoration: none;
+}
+
+.a4{
+    color: #ffffff;
+    width: 95px;
+    text-decoration: none;
+}
+
+.a5{
+    color: #ffffff;
+    width: 90px;
+    text-decoration: none;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+footer{
+    background-color: rgb(54, 119, 119);
+    height: 50px;
 }
